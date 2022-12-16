@@ -1,1 +1,52 @@
 /*Schrijf hier jouw CSS*/
+
+body{
+    border: 2px dashed blue;
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    height: 100vh;
+}
+nav{
+    border: 2px dashed deeppink;
+    flex-basis: 20vw;
+
+}
+
+div{
+    border: 2px dashed yellow;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 80vw;
+}
+
+header{
+    flex-basis: 80px;
+    flex-grow: 1;
+}
+
+
+
+main{
+    border: 2px dashed red;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 300px;
+    flex-grow: 3;
+}
+
+footer{
+    border: 2px dashed green;\
+    flex-basis: 80px;
+    flex-grow: 1;
+}
+
+article{
+    flex-basis: 30vw;
+    flex-grow: 1;
+}
+aside{
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
