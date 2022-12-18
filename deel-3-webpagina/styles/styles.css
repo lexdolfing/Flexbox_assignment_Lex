@@ -1,5 +1,5 @@
 /*Schrijf hier jouw css*/
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
 :root{
     --space-cadet: hsla(227, 50%, 16%, 1);
     --oxford-blue: hsla(245, 100%, 8%, 1);
@@ -8,28 +8,93 @@
     --fuzzy-wuzzy: hsla(359, 40%, 59%, 1);
 }
 
+*{
+   margin: 0;
+    padding: 0;
 
+}
+
+/*TYPOGRAPHY*/
 
 body{
-    border: 2px dotted black;
-    background-color: var(--beige);
-    display: flex;
-    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+
 }
 
 .titles{
-    border: 2px dotted green;
+    text-align: center;
+    padding: 40px
+}
+h3{
+    padding: 20px;
+}
+p{
+    text-align: center;
+    align-self: flex-end;
+    line-height: 1.5;
+}
+
+.analytica{
+    text-transform: uppercase;
+}
+
+
+
+body{
+    background-color: var(--beige);
+    display: flex;
+    flex-direction: column;
+
+}
+
+header{
+    background-color: var(--oxford-blue);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-basis:50px;
+    align-items: center;
+    padding: 0 40px;
+}
+
+
+.analytica{
+    justify-content: flex-start;}
+
+
+#about_us{
+margin-left: auto;}
+
+
+
+.titles{
     display: flex;
     flex-direction: column
 }
 
 .boxes{
-    border: 2px dashed red;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0 40px;
+    /*width: calc(280px * 3);*/
+    /*width: 840px;*/
+    flex-grow: 0;
+    flex-shrink: 1;
+
 }
 
 article{
+    display: flex;
     background-color: var(--fuzzy-wuzzy);
+    flex-basis: 280px;
+    height: 380px;
+    flex-grow: 0;
+    padding: 10px 5px;
+
+
 }
 
